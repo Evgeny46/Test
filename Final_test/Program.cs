@@ -13,17 +13,4 @@ for(int i = 0; i<Array.Length; i++)
     
 } 
 Console.WriteLine("Массив: ");
-for(int i =0; i<Array.Length; i++)
-{
-    Console.Write(Array[i] + "; ");
-}
-Console.WriteLine();
-Console.WriteLine("Элементы массива у которых 3 или меньше символов: ");
-for(int i = 0; i<Array.Length; i++)
-{
-    if(Array[i].Length <= 3)
-    {
-        Console.Write($" '{Array[i]}'; ");
-    }
-    
-}
+
